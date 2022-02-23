@@ -15,6 +15,3 @@ set(CMAKE_CXX_STANDARD 14)
 #    add_executable (${exe} ${file})
 #    message (\ \ \ \ --\ src/${exe}.cpp\ will\ be\ compiled\ to\ bin/${exe})
 #endforeach ()
-
-add_executable(1001 ch01/1001.cpp)
-add_executable(1000 ch01/1000.cpp)

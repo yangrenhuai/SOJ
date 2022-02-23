@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="974d6ce4-b497-4a9e-a9ca-813ae8708124" name="编译C++" defaultType="TOOL">
+      <configuration id="1a41dac0-2726-4ec8-b2bb-2173202c3ee2" name="编译C++" toolchainName="MinGW">
+        <build type="TOOL">
+          <tool actionId="Tool_External Tools_C++编译" />
+        </build>
+      </configuration>
+    </target>
+  </component>
+</project>

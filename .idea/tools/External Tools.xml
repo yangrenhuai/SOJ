@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="C++编译" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\mingw64\bin\g++.exe" />
+      <option name="PARAMETERS" value="&quot;$FileName$&quot;  -o D:\C_Project\SOJ\cmake-build-debug\a.exe" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+</toolSet>
