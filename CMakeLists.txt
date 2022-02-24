@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.21)
 project(SOJ)
 
 set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_BUILD_TYPE Debug)
 
 # 遍历项目根目录下所有的 .cpp 文件
 #file (GLOB files *.cpp)
