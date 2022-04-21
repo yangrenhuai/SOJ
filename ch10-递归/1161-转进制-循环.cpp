@@ -16,11 +16,11 @@ int main() {
     do{
         k=x%m;
         x=x/m;
-        result[len]=num[k];
+        result[len]=k;
         len++;
     }while(x>0);
     for(int i=len-1;i>=0;i--){
-        cout<<result[i];
+        cout<<num[result[i]];
     }
     return 0;
 }

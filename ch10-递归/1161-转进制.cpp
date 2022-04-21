@@ -3,6 +3,9 @@
 //
 #include<iostream>
 using namespace std;
+char num[16]= {'0','1','2','3','4','5','6',
+               '7','8','9','A','B','C',
+               'D','E','F'};
 void calculate(int n,int k);
 
 int main()
@@ -16,9 +19,6 @@ int main()
 
 void calculate(int n,int k)
 {
-    char num[16]= {'0','1','2','3','4','5','6',
-                   '7','8','9','A','B','C',
-                   'D','E','F'};
     int temp;
     temp=n%k;
     n/=k;
