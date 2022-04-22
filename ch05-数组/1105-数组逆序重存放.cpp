@@ -19,8 +19,8 @@
 
 using namespace std;
 
-int a[100];
-int n;
+int a[100];//数组
+int n;//数组中有效数据的个数
 int main() {
     cin>>n;
 

@@ -32,6 +32,7 @@ JAVA程序设计 65元/本
 
 using namespace std;
 
+//书的价格
 double a[10]={28.9,32.7,45.6,78,35,86.2,27.8,
               43,56,65};
 double total=0;

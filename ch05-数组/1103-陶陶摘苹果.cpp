@@ -28,19 +28,15 @@ int a[10];//苹果的高度
 int h;//陶陶的身高
 int cnt;//陶陶能摘到的苹果总数
 int main() {
-    for(int i=0;i<10;i++){
+    for(int i=0;i<10;i++)
         cin>>a[i];
-    }
 
     cin>>h;
     h=h+30;
 
-    for(int i=0;i<10;i++){
+    for(int i=0;i<10;i++)
         if(h>=a[i]) cnt++;
-    }
 
     cout<<cnt<<endl;
-
-
     return 0;
 }
