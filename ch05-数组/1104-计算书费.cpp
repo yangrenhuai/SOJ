@@ -44,5 +44,6 @@ int main() {
     }
 
     printf("%.1lf\n",total);
+
     return 0;
 }
