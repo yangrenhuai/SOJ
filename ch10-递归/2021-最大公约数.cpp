@@ -5,8 +5,6 @@
  即为最大公约数
 
 */
-
-
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -24,8 +22,8 @@ int f(int a,int b){
     }
     r=m%n;
     if(r>0){
-        return f(n,r);
-    } else{
+        return f(n,r); // 继续求n,r的最大公约数
+    } else{ // r=0 , n就是m的最大公约数
         return n;
     }
 }

@@ -8,7 +8,7 @@ using namespace std;
 
 void h(int n,char a,char b,char c){
     if(n==1){
-        printf("%c->%d->%c\n",a,n,b);
+        printf("%c->%d->%c\n",a,n,b); // 把n个盘子由a移动到b
         return ;
     }
     else{

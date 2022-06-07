@@ -29,14 +29,14 @@ int strLen, leftLen, rightLen; // strLen字符串长度，leftLen左括号长度
 int l[110], r[110];//记录左括号和右括号的位置
 
 void f(int pos){
-    if(pos == strLen) return ;
+    if(pos == strLen) return ; // 递归终止条件
     if(str[pos]=='(')
         l[leftLen++]=pos; // 记录左括号，并增加leftLen
     else if(str[pos]==')'){
         if(leftLen>0) leftLen--; // 有匹配的括号，弹出左括号
         else r[rightLen++]=pos ; // 没有匹配的括号，记录右括号
     }
-    str[pos]=' ';
+    str[pos]=' '; // 将数组中的字符设为空格
     f(pos+1); // 搜索下一个
 }
 int main() {
