@@ -37,7 +37,7 @@ int main() {
     cin >> s1 >> s2;
     if(s1.length() < s2.length())//让s1是较长的字符串，s2是较短的字符串
         swap(s1, s2);
-    for(int i = 0; i < s1.length(); ++i)
+    for(int i = 0; i < s1.length(); i++)
     {
         if(s1.find(s2) != -1)//判断s2是否是s1的子串
         {
