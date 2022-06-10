@@ -34,35 +34,30 @@ ChenRuiyi
 */
 
 #include "iostream"
+
 using namespace std;
 
-int main(){
-    string name,bestname; // 姓名，奖金最高的学生姓名
-    int i,tmp=0,n,sum=0,max=0,score1,score2,num;
-    bool a,b;
-    char c1,c2;
+int main() {
+    string name, bestname; // 姓名，奖金最高的学生姓名
+    int i, tmp = 0, n, sum = 0, max = 0, score1, score2, num;
+    bool a, b;
+    char c1, c2;
     cin >> n;
-    for(i=0;i<n;i++)
-    {
+    for (i = 0; i < n; i++) {
         cin >> name >> score1 >> score2 >> c1 >> c2 >> num;
-        a=c1=='Y';    // 是否是学生干部
-        b=c2=='Y';    // 是否是西部省份学生
-        tmp=0;
-        if((score1>80) && (num>0))      // 院士奖学金
-            tmp+=8000;
-        if((score1>85) && (score2>80))  // 五四奖学金
-            tmp+=4000;
-        if(score1>90)    // 成绩优秀奖
-            tmp+=2000;
-        if(b && (score1>85))  // 西部奖学金
-            tmp+=1000;
-        if(a && (score2>80))  // 班级贡献奖
-            tmp+=850;
-        sum+=tmp;    // 奖学金总数
-        if(tmp>max)
-        {
-            max=tmp;
-            bestname=name;
+        a = c1 == 'Y';    // 是否是学生干部
+        b = c2 == 'Y';    // 是否是西部省份学生
+        tmp = 0;
+        if (score1 > 80 && num > 0)  tmp += 8000;   // 院士奖学金
+
+        if (score1 > 85 && score2 > 80) tmp += 4000; // 五四奖学金
+        if (score1 > 90) tmp += 2000;   // 成绩优秀奖
+        if (b && score1 > 85) tmp += 1000;  // 西部奖学金
+        if (a && score2 > 80)tmp += 850;  // 班级贡献奖
+        sum += tmp;    // 奖学金总数
+        if (tmp > max) {
+            max = tmp;
+            bestname = name;
         }
     }
     cout << bestname << endl;
