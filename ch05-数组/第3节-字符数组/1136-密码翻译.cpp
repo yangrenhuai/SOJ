@@ -22,9 +22,8 @@ Ifmmp! Ipx bsf zpv!
 
 using namespace std;
 
-char a[1001];
+char a[81];
 int main() {
-
 
 	int len;
 
@@ -35,16 +34,15 @@ int main() {
 	for	(int i = 0; i < len; i++) {
 		if ((a[i] >= 'A' && a[i] <= 'Z') || (a[i] >= 'a' && a[i] <= 'z')) {
 			if (a[i] == 'z' || a[i] == 'Z')
-				a[i] = a[i] - 25;
+				cout<< a[i] - 25;
 			else
-				a[i] = a[i] + 1;
+				cout<< a[i] + 1;
 		}
-
+		else{
+			cout<< a[i];
+		}
 	}
 
-	for (int i = 0; i < len; i++)
-		cout << a[i];
-	cout<< endl;
 
 	return 0;
 }
