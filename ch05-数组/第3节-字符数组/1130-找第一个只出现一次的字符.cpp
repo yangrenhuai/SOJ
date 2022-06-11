@@ -13,20 +13,20 @@ c
 */
 
 #include "iostream"
-
+#include "cstring"
 using namespace std;
-char a[100001], b[26];
 
+char a[100001], b[26];
 int main() {
-    cin >> a;
-    long len = strlen(a);
-    for (int i = 0; i < len; i++)
-        b[a[i] - 'a']++;
-    for (int i = 0; i < len; i++)
-        if (b[a[i] - 'a'] == 1) {
-            cout << a[i];
-            return 0;
-        }
-    cout << "no" << endl;
-    return 0;
+	cin >> a;
+	long len = strlen(a);
+	for (int i = 0; i < len; i++)
+		b[a[i] - 'a']++;
+	for (int i = 0; i < len; i++)
+		if (b[a[i] - 'a'] == 1) {
+			cout << a[i];
+			return 0;
+		}
+	cout << "no" << endl;
+	return 0;
 }
