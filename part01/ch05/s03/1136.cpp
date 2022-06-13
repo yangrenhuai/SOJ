@@ -1,4 +1,5 @@
 /*
+ * 1136	密码翻译
 【题目描述】
 在情报传递过程中，为了防止情报被截获，往往需要对情报用一定的方式加密，简单的加密算法虽然不足以完全避免情报被破译，
  但仍然能防止情报被轻易的识别。我们给出一种最简的的加密方法，对给定的一个字符串，把其中从a-y，
@@ -18,28 +19,27 @@ Ifmmp! Ipx bsf zpv!
 
 
 #include <iostream>
-#include <cstring>
-
+#include <string>
 using namespace std;
 
 char a[81];
 int main() {
 
-	int len;
+	int len=0;
 
-    scanf("%s",a);
-
-	len = strlen(a);
+    /*本题不允许使用gets()函数读取数据，用了就无法通过编译*/
+    char c;
+    while((c=getchar())!='\n') a[len++]=c;
 
 	for	(int i = 0; i < len; i++) {
 		if ((a[i] >= 'A' && a[i] <= 'Z') || (a[i] >= 'a' && a[i] <= 'z')) {
 			if (a[i] == 'z' || a[i] == 'Z')
-				cout<< a[i] - 25;
+				putchar(a[i] - 25);
 			else
-				cout<< a[i] + 1;
+				putchar(a[i] + 1);
 		}
 		else{
-			cout<< a[i];
+			putchar(a[i]);
 		}
 	}
 
