@@ -16,3 +16,29 @@ referer
 【输出样例】
 refer
 */
+#include "iostream"
+using namespace std;
+
+int main(){
+    string str;
+    cin >> str;
+
+    int length=str.size();
+
+    if(str[length-1]=='r' && str[length-2]=='e'){
+        str.erase(length-2,2);
+    }
+
+    if(str[length-1]=='y' && str[length-2]=='l'){
+        str.erase(length-2,2);
+    }
+
+    if(str[length-1]=='g' && str[length-2]=='n'
+    && str[length-3]=='i'){
+        str.erase(length-3,3);
+    }
+
+    cout << str << endl;
+
+    return 0;
+}

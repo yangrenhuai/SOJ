@@ -23,15 +23,12 @@ int main()
     cin>>a>>b;
     int idx; // 查到的字串的位置
     idx=a.find(b);//在 a 中查找b
-    if(idx!=-1)//表示能查到
-    {
+    if(idx!=-1){//表示能查到
         cout<<b<<" is substring of "<<a<<endl;
     }
-    else
-    {
+    else{
         idx=b.find(a);
-        if(idx!=-1)
-        {
+        if(idx!=-1){
             cout<<a<<" is substring of "<<b<<endl;
         }
         else

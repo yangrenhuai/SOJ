@@ -16,7 +16,7 @@ int main() {
             cout << ch[i];
             flag= false;
         }
-        else  if(ch[i]==' ' && !flag) {
+        else  if(ch[i]==' ' && flag==false) {
             cout<<' ';
             flag=true;
         }
