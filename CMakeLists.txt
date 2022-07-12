@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.22)
+cmake_minimum_required(VERSION 3.21)
 project(一本通)
 #add_executable(1 part01/ch01/1000.cpp)
 #add_executable(1086 part02/ch04/1086-角谷猜想.cpp)
