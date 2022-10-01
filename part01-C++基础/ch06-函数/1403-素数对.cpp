@@ -25,7 +25,7 @@
 #include "iostream"
 using namespace std;
 
-int a[100010]; //存储所有的素数
+int a[10001]={0}; //存储所有的素数
 
 void plist(){
     /*
