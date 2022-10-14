@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-	string str[5000],s;
+	string str[100000],s;
 	int len=0;
 	
 	while(cin>>s){
