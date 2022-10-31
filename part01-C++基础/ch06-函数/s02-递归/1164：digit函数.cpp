@@ -6,9 +6,6 @@ int digit(int n,int k)
 	if(k==0) return n%10;
 	
 	else return digit(n/10,k-1);
-	
-	
-	
 }
 
 int main()
