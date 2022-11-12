@@ -12,19 +12,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d49557d2-5189-4767-a880-d97ec824550e" name="变更" comment="1160">
-      <change afterPath="$PROJECT_DIR$/1161-转进制.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1163 akm函数.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1165.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part01-C++基础/ch06-函数/demo/1158.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part01-C++基础/ch06-函数/demo/1160.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part01-C++基础/ch06-函数/demo/1161.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part01-C++基础/ch06-函数/demo/printf_demo.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part01-C++基础/ch06-函数/demo/scanf.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part01-C++基础/ch06-函数/demo/转义字符.cpp" afterDir="false" />
+    <list default="true" id="d49557d2-5189-4767-a880-d97ec824550e" name="变更" comment="递归">
+      <change afterPath="$PROJECT_DIR$/part02-基础算法/ch04-递归算法/1198-逆波兰表达式.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part02-基础算法/ch04-递归算法/1204：爬楼梯.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part02-基础算法/demo/1198.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part02-基础算法/demo/demo-01.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part01-C++基础/ch06-函数/s02-递归/1160：倒序数3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/part01-C++基础/ch06-函数/s02-递归/1160：倒序数3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part01-C++基础/ch06-函数/s02-递归/1164：digit函数.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/part01-C++基础/ch06-函数/s02-递归/1164：digit函数.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part02-基础算法/ch04-递归算法/1086.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/part02-基础算法/ch04-递归算法/1086.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/part02-基础算法/ch04-递归算法/1161.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/part02-基础算法/ch04-递归算法/1209.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/part02-基础算法/ch04-递归算法/1211.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +106,8 @@
       <workItem from="1665757547567" duration="1000" />
       <workItem from="1665803940077" duration="1104000" />
       <workItem from="1666274268927" duration="974000" />
-      <workItem from="1667197722428" duration="4000" />
+      <workItem from="1667197722428" duration="1146000" />
+      <workItem from="1668172374133" duration="612000" />
     </task>
     <task id="LOCAL-00001" summary="1209">
       <created>1654953103096</created>
@@ -229,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666274907811</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="递归">
+      <created>1667197740117</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667197740117</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +265,8 @@
     <MESSAGE value="1409" />
     <MESSAGE value="1413" />
     <MESSAGE value="1160" />
-    <option name="LAST_COMMIT_MESSAGE" value="1160" />
+    <MESSAGE value="递归" />
+    <option name="LAST_COMMIT_MESSAGE" value="递归" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
