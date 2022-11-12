@@ -5,11 +5,11 @@ using namespace std;
 int ans;
 
 void f(int n,int k){ // 从k开始分解n
-	if(n<k) return;
-	for(int i=k;i<sqrt(n);i++){
+	if(n<=k) return;
+	for(int i=k;i<=sqrt(n);i++){
 		if(n%i==0) {
 			ans++;	
-			f(n/k,i);
+			f(n/i,i);
 		}
 	}
 }
