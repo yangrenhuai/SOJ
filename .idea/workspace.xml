@@ -12,13 +12,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d49557d2-5189-4767-a880-d97ec824550e" name="变更" comment="递归">
-      <change afterPath="$PROJECT_DIR$/part01-C++基础/demo/demo01.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part02-基础算法/demo/1203.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part02-基础算法/demo/1203_递归.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part03-数据结构/01-栈.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part03-数据结构/02-队列.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d49557d2-5189-4767-a880-d97ec824550e" name="变更" comment="栈和队列">
+      <change afterPath="$PROJECT_DIR$/part03-数据结构/03-循环队列.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +103,7 @@
       <workItem from="1668220075364" duration="831000" />
       <workItem from="1668749533803" duration="1093000" />
       <workItem from="1669194903353" duration="553000" />
-      <workItem from="1673075606486" duration="1788000" />
+      <workItem from="1673075606486" duration="2431000" />
     </task>
     <task id="LOCAL-00001" summary="1209">
       <created>1654953103096</created>
@@ -264,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668749594233</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="栈和队列">
+      <created>1673078482458</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1673078482458</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +297,8 @@
     <MESSAGE value="1413" />
     <MESSAGE value="1160" />
     <MESSAGE value="递归" />
-    <option name="LAST_COMMIT_MESSAGE" value="递归" />
+    <MESSAGE value="栈和队列" />
+    <option name="LAST_COMMIT_MESSAGE" value="栈和队列" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
