@@ -12,8 +12,33 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d49557d2-5189-4767-a880-d97ec824550e" name="变更" comment="栈和队列">
-      <change afterPath="$PROJECT_DIR$/part03-数据结构/03-循环队列.cpp" afterDir="false" />
+    <list default="true" id="d49557d2-5189-4767-a880-d97ec824550e" name="变更" comment="循环队列">
+      <change afterPath="$PROJECT_DIR$/demo/1002.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/1003.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/1004.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/1005.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/1006.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/1007.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01-C++基础/demo/demo02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part02-基础算法/ch06-贪心算法/1284-摘花生.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part02-基础算法/ch06-贪心算法/1319-排队接水.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part02-基础算法/ch06-贪心算法/1320-均分纸牌.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part02-基础算法/ch06-贪心算法/案例1-需要安排几位师傅加工零件.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part03-数据结构/04-单向链表.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part03-数据结构/demo01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part03-数据结构/demo02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part03-数据结构/demo03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/蓝桥杯/中级选拔赛2-02统计字符个数.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/蓝桥杯/中级选拔赛2-05新冠病毒.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1161-转进制.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1163 akm函数.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1165.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/part02-基础算法/demo/demo-01.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/part02-基础算法/demo/demo-01.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +87,9 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -103,7 +128,8 @@
       <workItem from="1668220075364" duration="831000" />
       <workItem from="1668749533803" duration="1093000" />
       <workItem from="1669194903353" duration="553000" />
-      <workItem from="1673075606486" duration="2431000" />
+      <workItem from="1673075606486" duration="2843000" />
+      <workItem from="1684118494996" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="1209">
       <created>1654953103096</created>
@@ -266,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673078482458</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="循环队列">
+      <created>1673079098379</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1673079098379</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +331,8 @@
     <MESSAGE value="1160" />
     <MESSAGE value="递归" />
     <MESSAGE value="栈和队列" />
-    <option name="LAST_COMMIT_MESSAGE" value="栈和队列" />
+    <MESSAGE value="循环队列" />
+    <option name="LAST_COMMIT_MESSAGE" value="循环队列" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

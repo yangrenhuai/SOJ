@@ -1,11 +1,17 @@
 #include <iostream>
+#include <algorithm>
 using namespace std;
 
+bool cmp(int a,int b){
+	return a>b;
+}
 int main(){
-	int a,b,c;
+	int a[5]={2,3,0,1,2};
 	
-	cin>>a>>b>>c;
+	sort(a,a+5,cmp);
 	
-	cout<<a<<b<<c;
+	for(int i=0;i<5;i++){
+		cout << a[i]<< " ";
+	}
 }
 
